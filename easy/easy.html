@@ -19,15 +19,14 @@
         border-radius: 20px;
         margin-top: 1em;
         padding-bottom: 10px;
-
     }
-
+    
     h5.heading {
         margin: 5px;
         font-family: 'Courier New', Courier, monospace;
         font-size: large;
     }
-
+    
     input[type="number"] {
         range: none;
         padding: 1em;
@@ -38,23 +37,22 @@
         background: gainsboro;
         border-radius: 10px;
     }
-
+    
     body {
         background: black;
         color: rgb(47, 255, 175);
         padding: 2em;
     }
-
+    
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: x-large;
     }
-
+    
     button {
         background: rgb(47, 255, 175);
         color: purple;
-        text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
-            0px -5px 35px rgba(255, 255, 255, 0.3);
+        text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
         width: auto;
         border-radius: 20px;
         border: 2px white;
@@ -75,9 +73,11 @@
         <h5 class="heading">Choose number 1 to 100</h5>
 
         <input type="number" placeholder="Enter Number">
-        <button type="submit"> Check</button> <a href="../index.html"> <button>Back to Levels</button></a>
+        <button type="submit" onclick="guessNumber()"> Check</button>
+        <a href="../index.html"> <button>Back to Levels</button></a>
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
