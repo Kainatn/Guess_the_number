@@ -14,7 +14,7 @@ function guessNumber() {
         if (guessedNumber == randm) {
             alert('Congratulation You guessed the ' + randm + " in : " + count + " tries");
             count++;
-            document.querySelector('body').style.backgroundImage = "url('https://66.media.tumblr.com/849c4259435e5ff9789dd42e23fbf003/tumblr_p422nhq6vi1qzm8dwo1_400.gif')";
+            document.querySelector('body').style.backgroundImage = "url('../star.gif')";
             reSetGame();
         } else if (guessedNumber < randm) {
             alert("You guessed Small Number");
